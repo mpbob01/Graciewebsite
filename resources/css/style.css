@@ -54,6 +54,7 @@ header h1 {
   font-size: 3rem;
   text-align: center;
   padding-top: 1rem;
+  font-style: italic;
 }
 
 header h3 {
@@ -87,7 +88,9 @@ div.containers {
   background-color: hsla(342, 55%, 87%, 1);
   height: 17.5rem;
   width: 15.5rem;
-  transition: background-color 250ms ease-out, color 150ms ease-out 250ms, box-shadow 150ms ease-out;
+  transition: background-color 250ms ease-out, 
+    color 150ms ease-out 250ms, 
+    box-shadow 150ms ease-in;
   border-radius: 2px;
 }
 
