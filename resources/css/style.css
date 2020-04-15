@@ -1,0 +1,174 @@
+/* RESET */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, code,
+del, dfn, em, img, q, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 16px;
+  font-family: Muli;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+html,
+body {
+	margin:0;
+	padding:0;
+	height:100%;
+  background-color: hsla(342, 55%, 97%, 1);
+  box-sizing: border-box;
+  line-height: 1.4;
+  overflow: auto;
+}
+
+
+/* HEADER */
+
+header {
+  border-bottom: 1px solid gray;
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  z-index: 100;
+  background-position: fixed; 
+  background-color: hsla(342, 55%, 97%, 1);
+}
+
+header h1 {
+  font-family: Sacramento, Arial, sans-serif;
+  font-size: 3.5rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+header h3 {
+  font-family: "Baloo Paaji 2", Arial, sans-serif;
+  font-size: 1.25rem;
+  text-align: center; 
+}
+
+header ul {
+  display: flex;
+  justify-content: space-around;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
+/* TRADES */
+
+div.containers {
+  padding-top: 4rem;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;
+  top: 175px;
+}
+
+.trade {
+  align-content: center;
+  background-color: hsla(342, 55%, 87%, 1);
+  height: 17.5rem;
+  width: 15.5rem;
+  transition: background-color 100ms hsla(338, 95%, 36%, 1) 150ms;
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  transition: background-color 250ms ease-out, color 150ms ease-out 250ms;
+  border-radius: 2px;
+}
+
+.trade:hover {
+  background-color: hsla(338, 95%, 36%, 1);
+  
+}
+
+.trade:hover .role {
+  color: hsla(342, 55%, 99%, 1); 
+}
+
+.role {
+  position: relative;
+  top: 1.9rem;
+}
+
+.image {
+  height: 13rem;
+  width: 13.75rem;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+  top: 1rem;
+  border-radius: 2px;
+  object-fit: cover;
+}
+
+/* ABOUT ME */
+
+.about {
+  position: relative;
+  top: 250px;
+
+}
+
+.about p {
+  line-height: 1.6rem;
+  width: 70%;
+  padding-left: 10rem;
+  text-align: justify;
+}
+
+.about h4 {
+  font-family: sacramento, arial, sans-serif;
+  font-size: 2rem;
+  padding-left: 7rem;
+  font-style: italic;
+}
+
+/* FOOTER */
+
+footer i {
+  position: relative;
+  display: block;
+  justify-content: right;
+  align-content: space-between;
+  top: 300px;
+  padding: 25px 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
