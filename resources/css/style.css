@@ -51,15 +51,16 @@ header {
 
 header h1 {
   font-family: Sacramento, Arial, sans-serif;
-  font-size: 3.5rem;
+  font-size: 3rem;
   text-align: center;
   padding-top: 1rem;
 }
 
 header h3 {
   font-family: "Baloo Paaji 2", Arial, sans-serif;
-  font-size: 1.25rem;
-  text-align: center; 
+  font-size: 1rem;
+  text-align: center;
+  left: 100px;
 }
 
 header ul {
@@ -86,15 +87,13 @@ div.containers {
   background-color: hsla(342, 55%, 87%, 1);
   height: 17.5rem;
   width: 15.5rem;
-  transition: background-color 100ms hsla(338, 95%, 36%, 1) 150ms;
-  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
-  transition: background-color 250ms ease-out, color 150ms ease-out 250ms;
+  transition: background-color 250ms ease-out, color 150ms ease-out 250ms, box-shadow 150ms ease-out;
   border-radius: 2px;
 }
 
 .trade:hover {
   background-color: hsla(338, 95%, 36%, 1);
-  
+  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
 .trade:hover .role {
