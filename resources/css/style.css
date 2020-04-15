@@ -54,7 +54,6 @@ header h1 {
   font-size: 3rem;
   text-align: center;
   padding-top: 1rem;
-  font-style: italic;
 }
 
 header h3 {
@@ -99,7 +98,7 @@ div.containers {
   box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
 }
 
-.trade:hover .role {
+.trade:hover a {
   color: hsla(342, 55%, 99%, 1); 
 }
 
