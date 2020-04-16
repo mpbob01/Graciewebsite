@@ -63,6 +63,12 @@ header ul {
   padding-top: .75rem;
   padding-bottom: .75rem;
 }
+header a {
+  font-size: 1.1rem;  
+}
+header li:hover {
+  font-weight: bold;
+}
 
 /* TRADES */
 
