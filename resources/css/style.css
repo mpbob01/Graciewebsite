@@ -57,13 +57,6 @@ header h1 {
   padding-top: 1rem;
 }
 
-header h3 {
-  font-family: "Baloo Paaji 2", Arial, sans-serif;
-  font-size: 1rem;
-  text-align: center;
-  left: 100px;
-}
-
 header ul {
   display: flex;
   justify-content: space-around;
@@ -97,7 +90,7 @@ div.containers {
 
 .trade:hover {
   background-color: hsla(338, 95%, 36%, 1);
-  box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.75);
+  box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.75);
 }
 
 .trade:hover a {
@@ -144,11 +137,12 @@ div.containers {
 
 /* FOOTER */
 
-footer {
+.footer {
   display: flex;
-  width: 100%;
-  justify-content: space-between;
-    align-content: center;
+  width: 50%;
+  justify-content: space-around;
+  align-content: center;
+  margin: 0 auto;
 }
 
 footer i{
