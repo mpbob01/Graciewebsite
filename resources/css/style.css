@@ -40,18 +40,19 @@ body {
 /* HEADER */
 
 header {
-  border-bottom: 1px solid gray;
   position: fixed;
   width: 100%;
   margin: auto;
   z-index: 100;
   background-position: fixed; 
   background-color: hsla(342, 55%, 97%, 1);
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.75);
 }
 
 header h1 {
   font-family: Sacramento, Arial, sans-serif;
   font-size: 3rem;
+  font-style: italic;
   text-align: center;
   padding-top: 1rem;
 }
@@ -91,11 +92,12 @@ div.containers {
     color 150ms ease-out 250ms, 
     box-shadow 150ms ease-in;
   border-radius: 2px;
+  box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
 }
 
 .trade:hover {
   background-color: hsla(338, 95%, 36%, 1);
-  box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 4px 4px 10px 0px rgba(0,0,0,0.75);
 }
 
 .trade:hover a {
@@ -145,12 +147,12 @@ div.containers {
 footer {
   display: flex;
   width: 100%;
-  justify-content: flex-end;
+  justify-content: space-between;
+    align-content: center;
 }
 
 footer i{
   position: relative;
-  align-content: space-between;
   top: 300px;
   padding: 25px 50px;
 }
