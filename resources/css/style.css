@@ -30,7 +30,7 @@ body {
 	margin:0;
 	padding:0;
 	height:100%;
-  background-color: hsla(342, 55%, 97%, 1);
+  background-color: hsla(342, 100%, 99%, 1);
   box-sizing: border-box;
   line-height: 1.4;
   overflow: auto;
@@ -45,16 +45,21 @@ header {
   margin: auto;
   z-index: 100;
   background-position: fixed; 
-  background-color: hsla(342, 55%, 97%, 1);
+  background-color: hsla(342, 100%, 99%, 1);
   box-shadow: 0 0 3px 0 rgba(0,0,0,0.75);
 }
 
 header h1 {
-  font-family: Sacramento, Arial, sans-serif;
+  padding-left: 2rem;
+  font-family: Muli, Arial, sans-serif;
   font-size: 3rem;
-  font-style: italic;
-  text-align: center;
+  text-align: left;
+  font-weight: 300;
   padding-top: 1rem;
+}
+
+h1 span {
+  font-size: 2rem;
 }
 
 header ul {
@@ -95,7 +100,7 @@ div.containers {
 }
 
 .trade:hover {
-  background-color: hsla(338, 95%, 36%, 1);
+  background-color: hsla(351, 34%, 57%, 1);
   box-shadow: 4px 4px 7px 0px rgba(0,0,0,0.75);
 }
 
